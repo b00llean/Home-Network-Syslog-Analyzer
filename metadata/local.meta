@@ -1,0 +1,70 @@
+[app/ui]
+version = 7.2.6
+modtime = 1558286638.720455000
+
+[app/launcher]
+version = 7.2.6
+modtime = 1558286638.722255000
+
+[app/package/check_for_updates]
+version = 7.2.6
+modtime = 1558286638.723006000
+
+[indexes/b00lean-merlin]
+owner = admin
+version = 7.2.6
+modtime = 1558288515.597302000
+
+[inputs/udp%3A%2F%2F1515]
+owner = admin
+version = 7.2.6
+modtime = 1558288671.029296000
+
+[props/asus-merlin-data/EXTRACT-proc_name%2Cpid]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 7.2.6
+modtime = 1558291254.465934000
+
+[transforms/rep_firewall]
+version = 7.2.6
+modtime = 1558292305.928396000
+
+[props/asus-merlin-data/EXTRACT-pid%2Cpayload]
+export = none
+owner = nobody
+version = 7.2.6
+modtime = 1558296256.147527000
+
+[transforms/set_process]
+version = 7.2.6
+modtime = 1558296780.390685000
+
+[eventtypes/dns]
+export = none
+owner = admin
+version = 7.2.6
+modtime = 1558314058.574112000
+
+[tags/eventtype%3Ddns]
+export = none
+owner = admin
+version = 7.2.6
+modtime = 1558314058.582265000
+
+[eventtypes/firewall]
+export = none
+owner = admin
+version = 7.2.6
+modtime = 1558314062.288599000
+
+[tags/eventtype%3Dfirewall]
+export = none
+owner = admin
+version = 7.2.6
+modtime = 1558314062.293300000
+
+[inputs/udp%3A%2F%2F514]
+version = 7.2.6
+modtime = 1558385640.075851000
