@@ -68,3 +68,11 @@ modtime = 1558314062.293300000
 [inputs/udp%3A%2F%2F514]
 version = 7.2.6
 modtime = 1570399758.754474000
+
+[inputs/script%3A%2F%2F%24SPLUNK_HOME%2Fetc%2Fapps%2Fb00lean_home_monitoring%2Fbin%2Ftime_machine_space.sh]
+version = 7.2.6
+modtime = 1570646888.256343000
+
+[inputs/script%3A%2F%2F%24SPLUNK_HOME%2Fetc%2Fapps%2Fb00lean_home_monitoring%2Fbin%2Fnet_disk_space.sh]
+version = 7.2.6
+modtime = 1570671991.579777000
